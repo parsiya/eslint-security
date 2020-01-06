@@ -1,0 +1,36 @@
+{
+  "name": "eslint-security",
+  "version": "0.1.0",
+  "description": "ESLint security plugins and js-beautify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsiya/eslint-security.git"
+  },
+  "author": "Parsia Hakimian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsiya/eslint-security/issues"
+  },
+  "homepage": "https://github.com/parsiya/eslint-security#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-angularjs-security-rules": "^1.0.7",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    "eslint-plugin-no-wildcard-postmessage": "^0.1.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-prototype-pollution-security-rules": "^1.0.6",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-scanjs-rules": "^0.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "js-beautify": "^1.10.2"
+  }
+}
