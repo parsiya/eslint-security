@@ -29,7 +29,7 @@ module.exports = {
     "scanjs-rules/call_connect" : 1,
     "scanjs-rules/call_eval" : 1,
     "scanjs-rules/call_execScript" : 1,
-    "scanjs-rules/call_hide" : 1,
+    // "scanjs-rules/call_hide" : 1,
     "scanjs-rules/call_open_remote=true" : 1,
     "scanjs-rules/call_parseFromString" : 1,
     // "scanjs-rules/call_setImmediate" : 1,
