@@ -3,6 +3,11 @@ module.exports = {
     "browser" : true,
     "es6" : true /** all es6 features except modules */
   },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
   "plugins" : [
     // Standard Rules
     "scanjs-rules",
@@ -58,7 +63,5 @@ module.exports = {
     "prototype-pollution-security-rules/detect-merge-objects": 1,
     "prototype-pollution-security-rules/detect-merge-options": 1,
     "prototype-pollution-security-rules/detect-deep-extend": 1
-
-
   }
 };
