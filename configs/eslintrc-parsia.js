@@ -4,6 +4,7 @@ module.exports = {
     "es6" : true /** all es6 features except modules */
   },
   "parser": "babel-eslint",
+  /** Reduces ESLint parse errors */
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": true
@@ -11,8 +12,7 @@ module.exports = {
   "plugins" : [
     // Standard Rules
     "scanjs-rules",
-    "no-unsanitized",
-    "prototype-pollution-security-rules"
+    "no-unsanitized"
   ],
   "rules" : {
     /** useful rules from eslint **/
@@ -58,10 +58,5 @@ module.exports = {
     "no-unsanitized/method": 1,
     "no-unsanitized/property": 1,
 
-    /** prototype-pollution-security-rules rules**/
-    "prototype-pollution-security-rules/detect-merge": 1,
-    "prototype-pollution-security-rules/detect-merge-objects": 1,
-    "prototype-pollution-security-rules/detect-merge-options": 1,
-    "prototype-pollution-security-rules/detect-deep-extend": 1
   }
 };
